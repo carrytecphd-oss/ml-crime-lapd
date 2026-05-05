@@ -4,3 +4,4 @@ __pycache__/
 .virtual_documents/
 *.docx
 ~$*
+.ipynb_checkpoints/
