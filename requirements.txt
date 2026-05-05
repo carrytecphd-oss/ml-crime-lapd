@@ -4,3 +4,4 @@ plotly
 gdown
 pyarrow
 scikit-learn
+streamlit
