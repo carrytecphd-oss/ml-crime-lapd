@@ -6,3 +6,4 @@ pyarrow
 scikit-learn
 streamlit
 streamlit
+streamlit
