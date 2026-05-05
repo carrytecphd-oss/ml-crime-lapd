@@ -5,3 +5,4 @@ gdown
 pyarrow
 scikit-learn
 streamlit
+streamlit
