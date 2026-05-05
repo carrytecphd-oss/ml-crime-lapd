@@ -1,6 +1,5 @@
+modelo_rf.pkl
+*.pkl
 Crime_Data*.parquet
 __pycache__/
-.DS_Store
-.virtual_documents/
-*.docx
-~$*
+.ipynb_checkpoints/
