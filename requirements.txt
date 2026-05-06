@@ -1,9 +1,6 @@
-streamlit
+gdown
 pandas
 plotly
-gdown
 pyarrow
 scikit-learn
-streamlit
-streamlit
 streamlit
