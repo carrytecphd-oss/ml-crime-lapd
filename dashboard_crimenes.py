@@ -7,7 +7,7 @@ CARPETA = pathlib.Path(__file__).parent
 
 st.set_page_config(page_title="LAPD Crime Dashboard", layout="wide", page_icon=":bar_chart:")
 
-DRIVE_MODEL_ID = "1N7Fad4W2UmJJqoTmhLhw6mSXvUhv5K3n"
+DRIVE_MODEL_ID = "1N7Fad4W2UmJJqoTmhLhw6mSXvUhv5K3n"  
 
 @st.cache_data
 def cargar_datos():
@@ -93,6 +93,7 @@ with st.form("predictor"):
     mes_in    = c3.number_input("Mes (1-12)",      1, 12, 6)
     submitted = st.form_submit_button("Predecir")
     if submitted:
+        import pandas as pd
         row = pd.DataFrame([{
             "AREA":area_in, "hour":hora_in, "month":mes_in,
             "day_of_week":0, "is_weekend":0,
@@ -101,5 +102,5 @@ with st.form("predictor"):
             "block_enc":2, "LAT":34.05, "LON":-118.25
         }])
         prob  = modelo.predict_proba(row)[0, 1]
-        nivel = "\U0001f534 GRAVE (Tipo 1)" if prob >= 0.5 else "\U0001f7e1 Menor (Tipo 2)"
+        nivel = "🔴 GRAVE (Tipo 1)" if prob >= 0.5 else "🟡 Menor (Tipo 2)"
         st.metric("Clasificación predicha", nivel, f"Probabilidad: {prob:.1%}")
