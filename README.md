@@ -6,8 +6,7 @@
 ![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange)
 
  
-
-##**Objetivo:** Predecir si un crimen es de Tipo 1 (grave: homicidio, robo, agresión) o Tipo 2 (menor gravedad), y apoyar la toma de decisiones sobre asignación de recursos policiales.
+**Objetivo:** Predecir si un crimen es de Tipo 1 (grave: homicidio, robo, agresión) o Tipo 2 (menor gravedad), y apoyar la toma de decisiones sobre asignación de recursos policiales.
 
 **Autores:** 
 - Beiza Vargas Johar — [jobv99-ui ](#)
