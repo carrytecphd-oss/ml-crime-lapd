@@ -182,13 +182,14 @@ Dataset procesado en formato Parquet con las columnas necesarias para el dashboa
 
 ## Recomendaciones
 
-Asignación de Recursos
+**Asignación de Recursos**
 - Áreas con mayor riesgo: Aumentar patrullajes en 40% durante horario nocturno
 (10pm-4am)
 - Zonas comerciales: Implementar 2 unidades adicionales en fines de semana
 - Zona centrica: implementar vigilancia peatonal
 - Áreas residenciales: Mantener vigilancia actual con enfoque preventivo
-Plan Estratégico
+
+**Plan Estratégico**
 - Rotar recursos desde áreas de bajo riesgo hacia zonas críticas
 - Implementar sistema de alerta temprana basado en predicciones diarias
 - Entrenar oficiales para las áreas de alto riesgo
