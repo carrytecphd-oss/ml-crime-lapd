@@ -158,7 +158,7 @@ Aplicación Streamlit que consume `datos_dashboard.parquet` y `modelo_rf.pkl`. I
 
 ### `ML_Trabajo_Final.ipynb`
 
-Notebook documenta:
+Notebook documentado:
 - Carga y exploración del dataset del LAPD
 - Transformaciones y feature engineering
 - Entrenamiento y evaluación comparativa de modelos
