@@ -27,9 +27,9 @@ El flujo completo cubre análisis exploratorio, ingeniería de variables, entren
 ml-crime-lapd/
 │
 ├── ML_Trabajo_Final.ipynb        # Notebook principal: EDA, preprocesamiento y modelado
-├── dashboard_crimenes.py         # Aplicación Streamlit (dashboard ejecutivo)
-├── datos_dashboard.parquet       # Dataset procesado listo para producción
-├── modelo_rf.pkl                 # Modelo Random Forest serializado
+├── dashboard_crimenes.py         # Dashboard
+├── datos_dashboard.parquet       # Dataset procesado y listo 
+├── modelo_rf.pkl                 # Modelo Random Forest 
 ├── requirements.txt              # Dependencias del proyecto
 └── Proyecto Final Machine Learning.pdf  # Documentación del proyecto
 ```
@@ -44,7 +44,7 @@ Este proyecto responde a la pregunta:
 
 > *¿Es posible predecir, con precisión aceptable, si un incidente del LAPD será grave o menor a partir de sus variables contextuales?*
 
-El enfoque adoptado es **clasificación binaria supervisada**, con énfasis en reproducibilidad, interpretabilidad operacional y despliegue inmediato.
+El enfoque adoptado es **clasificación binaria supervisada**.
 
 ---
 
